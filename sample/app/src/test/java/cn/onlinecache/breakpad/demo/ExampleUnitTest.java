@@ -1,4 +1,4 @@
-package cn.onlinecache.breakpad;
+package cn.onlinecache.breakpad.demo;
 
 import org.junit.Test;
 

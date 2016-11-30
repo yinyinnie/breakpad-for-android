@@ -1,4 +1,4 @@
-package cn.onlinecache.breakpad;
+package cn.onlinecache.breakpad.demo;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
