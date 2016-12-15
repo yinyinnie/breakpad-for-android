@@ -1,5 +1,5 @@
 # Breakpad-for-android
-这是库简单封装了Breakpad, 加上jni层，让你一键集成Breakpad到项目中
+这是库简单封装了Google Breakpad, 加上jni层，让你一键集成Breakpad到项目中
 
 # 如何使用
 
