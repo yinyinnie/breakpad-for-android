@@ -11,8 +11,11 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="cn.onlinecache.breakpad.demo.MainActivity">
 
-    <TextView
+    <Button
+        android:id="@+id/btnTestNDKCrash"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"/>
+        android:text="test ndk crash"
+        android:textSize="14sp"
+        android:layout_centerInParent="true"/>
 </RelativeLayout>

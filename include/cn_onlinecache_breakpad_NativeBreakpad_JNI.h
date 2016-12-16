@@ -8,12 +8,20 @@
 extern "C" {
 #endif
 /*
- * Class:     cn_onlinecache_breakpad_NativeBreadpad
+ * Class:     cn_onlinecache_breakpad_NativeBreakpad
  * Method:    nativeInit
  * Signature: (Ljava/lang/String;)I
  */
 JNIEXPORT jint JNICALL Java_cn_onlinecache_breakpad_NativeBreakpad_nativeInit
   (JNIEnv *, jobject, jstring);
+
+/*
+  * Class:     cn_onlinecache_breakpad_NativeBreakpad
+  * Method:    nativeTestCrash
+  * Signature: * Signature: ()V
+  */
+ JNIEXPORT jint JNICALL Java_cn_onlinecache_breakpad_NativeBreakpad_nativeTestCrash
+   (JNIEnv *, jobject);
 
 #ifdef __cplusplus
 }

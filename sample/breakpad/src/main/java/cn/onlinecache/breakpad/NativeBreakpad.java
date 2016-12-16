@@ -39,4 +39,20 @@ public class NativeBreakpad {
     }
 
     private static native int nativeInit(String dumpFileDir);
+
+
+    /**
+	 * don't use this method in your production app!!
+	 */
+	public static int testNativeCrash(){
+		if (loadBreakpadSuccess){
+            Log.d(TAG, "test native crash .......................");
+			return nativeTestCrash();
+		}
+		return -1;
+	}
+
+  private static native int nativeTestCrash();
+
+
 }

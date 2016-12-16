@@ -33,3 +33,11 @@ JNIEXPORT jint JNICALL Java_cn_onlinecache_breakpad_NativeBreakpad_nativeInit(JN
     LOGD("nativeInit ===> breakpad initialized succeeded, dump file will be saved at %s", path);
     return 0;
 }
+
+JNIEXPORT jint JNICALL Java_cn_onlinecache_breakpad_NativeBreakpad_nativeTestCrash
+(JNIEnv* env, jobject obj) {
+    LOGE("native crash capture begin");
+    char *ptr = NULL; *ptr = 1;
+    LOGE("native crash capture end");
+    return 0;
+}
