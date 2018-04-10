@@ -5,3 +5,4 @@ sample/breakpad/build
 sample/breakpad/obj
 sample/app/build
 sample/build/
+!build.sh
