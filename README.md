@@ -23,7 +23,10 @@
 2. 拷贝sample/breakpad/src/main/java/cn/onlinecache/breakpad/NativeBreakpad.java到你的工程目录下，**注意：包名不能改哦！！**
 3. 在你的Application类初始化：` NativeBreakpad.init(Environment.getExternalStorageDirectory().getAbsolutePath());`  注意：**这个方法所传的参数你可以直接定义**
 
-## 你也可以无需编译，直接使用sample的breakpad module
+
+** 你也可以无需编译，直接使用sample的breakpad module**
+
+与工程配套的文章教程：https://www.jianshu.com/p/c1ff71c9b5ef
 
 
 
